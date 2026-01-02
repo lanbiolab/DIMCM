@@ -276,14 +276,6 @@ if __name__ == '__main__':
 
     files_list = [
         ['labels.csv', 'gistic.csv', 'htseq.csv', 'methylation.csv', 'mirna.csv', 'wsi.h5'],
-        ['labels.csv', 'gistic.csv', 'htseq.csv', 'methylation.csv', 'mirna.csv'],
-        ['labels.csv', 'gistic.csv', 'htseq.csv', 'methylation.csv'],
-        ['labels.csv', 'gistic.csv', 'htseq.csv'],
-        ['labels.csv', 'gistic.csv'],
-        ['labels.csv', 'htseq.csv'],
-        ['labels.csv', 'methylation.csv'],
-        ['labels.csv', 'mirna.csv'],
-        ['labels.csv', 'wsi.h5'],
     ]
 
     dataset = MultiOmicsDataset('Data/', ['labels.csv', 'gistic.csv', 'htseq.csv', 'methylation.csv', 'mirna.csv', 'wsi.h5'], d)
